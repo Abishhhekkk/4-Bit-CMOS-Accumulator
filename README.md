@@ -57,20 +57,6 @@ Post-layout power measurements were performed across frequency and supply-voltag
 
 ---
 
-## Repository Structure
-.
-├── docs/ # Detailed analysis and report
-├── schematics/ # Transistor-level schematics
-├── layout/ # Custom layout and extracted views
-├── simulations/ # Testbenches and simulation setups
-├── results/ # Power plots and timing waveforms
-└── README.md
-
-yaml
-Copy code
-
----
-
 ## Key Takeaways
 - Dynamic power increases with bit-width due to higher effective switching capacitance  
 - Post-layout parasitics significantly influence real power behavior  
